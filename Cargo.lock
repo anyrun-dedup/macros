@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "anyrun-macros"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "quote",
  "syn",
@@ -44,3 +44,11 @@ name = "unicode-ident"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "301abaae475aa91687eb82514b328ab47a211a533026cb25fc3e519b86adfc3c"
+
+[[patch.unused]]
+name = "anyrun-interface"
+version = "0.1.1"
+
+[[patch.unused]]
+name = "anyrun-plugin"
+version = "0.1.1"
